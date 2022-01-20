@@ -13,6 +13,6 @@ function soma2(a, b, c){
     b = b in arguments ? b : 1
     c = isNaN(c) ? 1 : c
 }
-
+console.log(soma1(), soma1(3),soma1(1, 2, 3), soma1(0, 0, 0))
 
 
